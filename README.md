@@ -2,7 +2,7 @@
 
 File Uploads can be done via [Pinata](https://app.pinata.cloud/) or a similar service that gives you a single CID for images meta files
 
-Using this fully-functional minting machine to easily create your SoulBound by uploading image layers, config options, then build and export it the bean UI: github.com/gadillacer/bean-machine-frontend.git
+Using this fully-functional minting machine to easily create your SoulBound by uploading image layers, config options, then build and export it the [bean UI](github.com/gadillacer/bean-machine-frontend.git)
 
 Main Smart contract: contracts/SoulBoundNFT.sol
 
