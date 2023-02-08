@@ -1,0 +1,24 @@
+{
+  "network": "goerli",
+  "contract": {
+    "name": "SoulBoundNFTProxyRegistry",
+    "address": "0xAc0bfEe01E96c964D9C95BBcA3C99F62495592C9",
+    "signerAddress": "0xcEAa254a4df4f2eB888a09E498b55b618893B0A8",
+    "abi": [
+      "constructor()",
+      "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+      "function beaconAddress() view returns (address) @1100000",
+      "function getContractInfoByProxyAddress(address _proxy) view returns (tuple(string name, string symbol, address owner)) @1100000",
+      "function getProxiesByOwnerAddress(address _owner) view returns (address[]) @1100000",
+      "function owner() view returns (address) @1100000",
+      "function proxies(uint256) view returns (address) @1100000",
+      "function proxyCount() view returns (uint256 _value) @1100000",
+      "function proxyFactory() view returns (address) @1100000",
+      "function registerBeaconProxy(address proxyAddress, string name, string symbol, address tokenOwner) @1100000",
+      "function renounceOwnership() @1100000",
+      "function setBeaconAddress(address _beaconAddress) @1100000",
+      "function setProxyFactory(address _factory) @1100000",
+      "function transferOwnership(address newOwner) @1100000"
+    ]
+  }
+}
