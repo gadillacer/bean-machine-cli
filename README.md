@@ -1,6 +1,6 @@
 # The Bean Machine
 
-Using this fully-functional minting machine to easily create your SoulBound by uploading image layers, config options, then build and export it the [Bean UI](github.com/gadillacer/bean-machine-frontend.git)
+Using this fully-functional minting machine to easily create your SoulBound by uploading image layers, config options, then build and export it the [Bean UI](https://github.com/gadillacer/bean-machine-frontend.git)
 
 Main Smart contract: contracts/SoulBoundNFT.sol
 
