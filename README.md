@@ -1,8 +1,6 @@
 # The Bean Machine
 
-File Uploads can be done via [Pinata](https://app.pinata.cloud/) or a similar service that gives you a single CID for images meta files
-
-Using this fully-functional minting machine to easily create your SoulBound by uploading image layers, config options, then build and export it the [bean UI](github.com/gadillacer/bean-machine-frontend.git)
+Using this fully-functional minting machine to easily create your SoulBound by uploading image layers, config options, then build and export it the [Bean UI](github.com/gadillacer/bean-machine-frontend.git)
 
 Main Smart contract: contracts/SoulBoundNFT.sol
 
@@ -14,16 +12,13 @@ Features:
 - Votes Power
 - WhiteList, MintDate supported
 
-
-## TIP / Contributions Address
-If you feel that this has benefitted you in any way and would like to make a contribution towards The Bean Machine, then please use the following MetaMask wallet address:
-- `0xfED930B2DBbc52996b2E107F1396d82256F41c41`
+File Uploads can be done via [Pinata](https://app.pinata.cloud/)
 
 **Please note that if you have a Mac with a M1 chip and you run into issues with npm install, then please try to install Node.js version 14 instead of the latest Node version and try the npm install again**
 
 <br/>
 
-## ERC721 Product Contract Examples
+## Non-Transferable ERC721 Contract Examples
 - [EXAMPLE - ERC721]
      - `npm install`
      - `npm chain`

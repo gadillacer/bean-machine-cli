@@ -52,7 +52,6 @@ build/Release
 build/
 dist/
 node_modules/
-contracts/
 jspm_packages/
 artifacts/
 cache/
