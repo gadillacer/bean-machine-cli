@@ -19,13 +19,13 @@ File Uploads can be done via [Pinata](https://app.pinata.cloud/)
 <br/>
 
 ## Non-Transferable ERC721 Contract Examples
-- [EXAMPLE - ERC721]
+- [ERC721]
      - `npm install`
      - `npm chain`
      - Put your artwork layers at layers/
      - Update src/art_config.js
      - `npm build`
-     - Update config/default.js & prepare a wallet
+     - Update config/.env & config/default.js & prepare a wallet
      - `npm deploy_goerli`
      - Update constants/nft_details.js
      - `npm pin_files`

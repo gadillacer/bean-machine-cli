@@ -30,7 +30,7 @@ const config = {
     ipfsGatewayUrl: 'https://gateway.pinata.cloud/ipfs',
 
     // If you wish to control your own token proxy, change it to "true"
-    shouldDeployNewFactory: false
+    shouldDeployNewFactory: true
 }
 
 module.exports = config

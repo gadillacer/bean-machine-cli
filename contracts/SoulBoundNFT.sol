@@ -2,7 +2,7 @@
 pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
-import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/draft-ERC721VotesUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721VotesUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721BurnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
@@ -77,8 +77,6 @@ contract SoulBoundNFT is Initializable, AccessControlUpgradeable, ERC721VotesUpg
   ) public initializer {
     __ERC721_init(name_, symbol_);
     __AccessControl_init();
-
-    devVault = payable(address(0xf4553cDe05fA9FC35F8F1B860bAC7FA157779382));
 
     _transferable = transferable_;
     _mintable = mintable_;
@@ -288,11 +286,12 @@ contract SoulBoundNFT is Initializable, AccessControlUpgradeable, ERC721VotesUpg
   }
 
   function _afterTokenTransfer(
-    address from,
-    address to,
-    uint256 tokenId
+      address from,
+      address to,
+      uint256 firstTokenId,
+      uint256 batchSize
   ) internal virtual override(ERC721Upgradeable, ERC721VotesUpgradeable) {
-    super._afterTokenTransfer(from, to, tokenId);
+      super._afterTokenTransfer(from, to, firstTokenId, batchSize);
   }
 
   function _authorizeUpgrade(
